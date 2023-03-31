@@ -1,16 +1,16 @@
 import { SignUpButton, useUser } from "@clerk/nextjs";
-import dayjs from "dayjs";
-import relativeTime from "dayjs/plugin/relativeTime";
 import { type NextPage } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 import { toast } from "react-hot-toast";
 
-import { LoadingPage, LoadingSpinner, PageLayout } from "~/components";
-import { api, type RouterOutputs } from "~/utils/api";
-
-dayjs.extend(relativeTime);
+import {
+  LoadingPage,
+  LoadingSpinner,
+  PageLayout,
+  PostView,
+} from "~/components";
+import { api } from "~/utils/api";
 
 const CreatePostWizard = () => {
   const [input, setInput] = useState("");
@@ -73,43 +73,6 @@ const CreatePostWizard = () => {
         <button onClick={() => mutate({ content: input })}>Post</button>
       )}
     </div>
-  );
-};
-
-type PostWithUser = RouterOutputs["posts"]["getAll"][number];
-
-const PostView = (props: PostWithUser) => {
-  const { post, author } = props;
-
-  return (
-    <Link href={`/post/${post.id}`}>
-      <div key={post.id} className="flex gap-4 border-b border-slate-400 p-4">
-        <Link href={`/@${author.username}`}>
-          <Image
-            src={author.profileImageUrl}
-            alt={`@${author.username}'s Profile Picture`}
-            className="h-12 w-12 rounded-full"
-            width={32}
-            height={32}
-            placeholder="blur"
-            blurDataURL={author.profileImageUrl}
-          />
-        </Link>
-
-        <div className="flex flex-col">
-          <div className="flex gap-1 text-slate-300">
-            <Link href={`/@${author.username}`}>
-              <span>{`@${author.username}`}</span>
-            </Link>
-
-            <span className="font-light">{`· ${dayjs(
-              post.createdAt
-            ).fromNow()}`}</span>
-          </div>
-          <span>{post.content}</span>
-        </div>
-      </div>
-    </Link>
   );
 };
 
