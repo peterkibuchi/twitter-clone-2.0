@@ -65,13 +65,17 @@ const CreatePostWizard = () => {
         }}
       />
 
-      {isPosting ? (
-        <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center">
+        {isPosting ? (
           <LoadingSpinner size={20} />
-        </div>
-      ) : (
-        <button onClick={() => mutate({ content: input })}>Post</button>
-      )}
+        ) : (
+          <>
+            {input !== "" && (
+              <button onClick={() => mutate({ content: input })}>Post</button>
+            )}
+          </>
+        )}
+      </div>
     </div>
   );
 };
