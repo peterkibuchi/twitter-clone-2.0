@@ -4,6 +4,7 @@ import relativeTime from "dayjs/plugin/relativeTime";
 import { type NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import { toast } from "react-hot-toast";
 
@@ -82,27 +83,34 @@ const PostView = (props: PostWithUser) => {
   const { post, author } = props;
 
   return (
-    <div key={post.id} className="flex gap-4 border-b border-slate-400 p-4">
-      <Image
-        src={author.profileImageUrl}
-        alt={`@${author.username}'s Profile Picture`}
-        className="h-12 w-12 rounded-full"
-        width={32}
-        height={32}
-        placeholder="blur"
-        blurDataURL={author.profileImageUrl}
-      />
+    <Link href={`/post/${post.id}`}>
+      <div key={post.id} className="flex gap-4 border-b border-slate-400 p-4">
+        <Link href={`/@${author.username}`}>
+          <Image
+            src={author.profileImageUrl}
+            alt={`@${author.username}'s Profile Picture`}
+            className="h-12 w-12 rounded-full"
+            width={32}
+            height={32}
+            placeholder="blur"
+            blurDataURL={author.profileImageUrl}
+          />
+        </Link>
 
-      <div className="flex flex-col">
-        <div className="flex gap-1 text-slate-300">
-          <span>{`@${author.username}`}</span>
-          <span className="font-light">{`· ${dayjs(
-            post.createdAt
-          ).fromNow()}`}</span>
+        <div className="flex flex-col">
+          <div className="flex gap-1 text-slate-300">
+            <Link href={`/@${author.username}`}>
+              <span>{`@${author.username}`}</span>
+            </Link>
+
+            <span className="font-light">{`· ${dayjs(
+              post.createdAt
+            ).fromNow()}`}</span>
+          </div>
+          <span>{post.content}</span>
         </div>
-        <span>{post.content}</span>
       </div>
-    </div>
+    </Link>
   );
 };
 
