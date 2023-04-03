@@ -31,7 +31,7 @@
     "zod": "^3.20.6"
   },
   "devDependencies": {
-    "@types/eslint": "^8.21.3",
+    "@types/eslint": "^8.37.0",
     "@types/node": "^18.15.10",
     "@types/prettier": "^2.7.2",
     "@types/react": "^18.0.29",
@@ -39,7 +39,7 @@
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.56.0",
     "autoprefixer": "^10.4.14",
-    "eslint": "^8.36.0",
+    "eslint": "^8.37.0",
     "eslint-config-next": "^13.2.4",
     "postcss": "^8.4.14",
     "prettier": "^2.8.1",
