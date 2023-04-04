@@ -10,10 +10,10 @@ const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <ClerkProvider {...pageProps}>
       <Head>
-        <title>Michelangelo AI</title>
+        <title>Twitter Clone 2.0</title>
         <meta
-          name="Michelangelo AI"
-          content="Text-to-Image AI Image Generator"
+          name="Twitter Clone 2.0"
+          content="Minimal Twitter Clone built off the T3 Stack"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
