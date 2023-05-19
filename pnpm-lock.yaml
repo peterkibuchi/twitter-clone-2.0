@@ -23,8 +23,8 @@ dependencies:
     specifier: ^10.18.0
     version: 10.18.0
   '@upstash/ratelimit':
-    specifier: ^0.4.1
-    version: 0.4.1(@upstash/redis@1.20.2)
+    specifier: ^0.4.3
+    version: 0.4.3
   '@upstash/redis':
     specifier: ^1.20.2
     version: 1.20.2
@@ -793,13 +793,10 @@ packages:
       - encoding
     dev: false
 
-  /@upstash/ratelimit@0.4.1(@upstash/redis@1.20.2):
-    resolution: {integrity: sha512-NdL4E8jOrqSIOuDFVx5TLdh0/2tefgnrzBeqx+soy1cjGnx8sKdCZpOi4xhG5rm6F9ch89ZzIcBm6iRhx+tLgA==}
-    peerDependencies:
-      '@upstash/redis': ^1.20.1
+  /@upstash/ratelimit@0.4.3:
+    resolution: {integrity: sha512-Dsp9Mw09Flg28JRklKgFiCXqr3bqv8bbG0kgpUYoHjcgPPolFFyaYOj/I2HExvYLZiogl77NUavBoNvMOK0zUQ==}
     dependencies:
       '@upstash/core-analytics': 0.0.6
-      '@upstash/redis': 1.20.2
     transitivePeerDependencies:
       - encoding
     dev: false
