@@ -58,8 +58,8 @@ devDependencies:
     specifier: ^18.16.13
     version: 18.16.13
   '@types/prettier':
-    specifier: ^2.7.2
-    version: 2.7.2
+    specifier: ^2.7.3
+    version: 2.7.3
   '@types/react':
     specifier: ^18.2.6
     version: 18.2.6
@@ -614,8 +614,8 @@ packages:
   /@types/node@18.16.13:
     resolution: {integrity: sha512-uZRomboV1vBL61EBXneL4j9/hEn+1Yqa4LQdpGrKmXFyJmVfWc9JV9+yb2AlnOnuaDnb2PDO3hC6/LKmzJxP1A==}
 
-  /@types/prettier@2.7.2:
-    resolution: {integrity: sha512-KufADq8uQqo1pYKVIYzfKbJfBAc0sOeXqGbFaSpv8MRmC/zXgowNZmFcbngndGk922QDmOASEXUZCaY48gs4cg==}
+  /@types/prettier@2.7.3:
+    resolution: {integrity: sha512-+68kP9yzs4LMp7VNh8gdzMSPZFL44MLGqiHWvttYJe+6qnuVr4Ek9wSBQoveqY/r+LwjCcU29kNVkidwim+kYA==}
     dev: true
 
   /@types/prop-types@15.7.5:
