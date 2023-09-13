@@ -1,7 +1,7 @@
-import { SignUpButton, useUser } from "@clerk/nextjs";
+import { useState } from "react";
 import { type NextPage } from "next";
 import Image from "next/image";
-import { useState } from "react";
+import { SignUpButton, useUser } from "@clerk/nextjs";
 import { toast } from "react-hot-toast";
 
 import {

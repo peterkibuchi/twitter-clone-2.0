@@ -8,7 +8,7 @@ import { api } from "~/utils/api";
 
 const ProfileFeed = (props: { userId: string }) => {
   const { data, isLoading: postsLoading } = api.posts.getPostsByUserId.useQuery(
-    { userId: props.userId }
+    { userId: props.userId },
   );
 
   if (postsLoading) return <LoadingPage />;
