@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@clerk/nextjs':
-    specifier: ^4.25.7
-    version: 4.25.7(next@14.0.0)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^4.26.1
+    version: 4.26.1(next@14.0.0)(react-dom@18.2.0)(react@18.2.0)
   '@prisma/client':
     specifier: ^5.5.2
     version: 5.5.2(prisma@5.5.2)
@@ -403,11 +403,11 @@ packages:
     dev: false
     optional: true
 
-  /@clerk/backend@0.31.3(react@18.2.0):
-    resolution: {integrity: sha512-0SbpwG7q6eEnVH/Shj86LFDM/zvVT6ToVodZLKawPxwzMqXBhrSNMdPQn9Al7w2522NesL/apR64npY7FnI2vA==}
+  /@clerk/backend@0.32.1(react@18.2.0):
+    resolution: {integrity: sha512-ZH3Mez3f9SZwjpRbC1oaw3+q1+jXkF02HpUB+3vH2+PNxdY+AJ0MW4ACtJhIMNqeY8zAEKzYKMpuGsI+3NVyOA==}
     engines: {node: '>=14'}
     dependencies:
-      '@clerk/shared': 1.0.0(react@18.2.0)
+      '@clerk/shared': 1.0.1(react@18.2.0)
       '@clerk/types': 3.57.0
       '@peculiar/webcrypto': 1.4.1
       '@types/node': 16.18.6
@@ -420,24 +420,24 @@ packages:
       - react
     dev: false
 
-  /@clerk/clerk-react@4.27.0(react@18.2.0):
-    resolution: {integrity: sha512-/Vgr/dXwtwTCVY9Xj5FuzpUh4nRWED5Bmsra6Kc8LqvjhLJq6wMMfVmm7b3oShEm4Ks3TBYqAaa0XliLCkZRJw==}
+  /@clerk/clerk-react@4.27.1(react@18.2.0):
+    resolution: {integrity: sha512-LAMcMFn6yLlzLKtyrixZtBYhtTNpjhEunbcPb1XxFAG6iNuN4dX5AAxWli4cstcZ+Q0C9O9zHIt0Qb6J3Arcng==}
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=16'
     dependencies:
-      '@clerk/shared': 1.0.0(react@18.2.0)
+      '@clerk/shared': 1.0.1(react@18.2.0)
       '@clerk/types': 3.57.0
       react: 18.2.0
       tslib: 2.4.1
     dev: false
 
-  /@clerk/clerk-sdk-node@4.12.16(react@18.2.0):
-    resolution: {integrity: sha512-mstF9j0sbeq4leru2UJacTI814fARt3RkVc6AB6hYQdOE0bs5P1pb1akrsK86eFs2Ej2cDpcOsdppirpe0qe/g==}
+  /@clerk/clerk-sdk-node@4.12.18(react@18.2.0):
+    resolution: {integrity: sha512-uFmVLL1qFwY4habJD4gKfmSrqqE31T/ILkj+VbXWeg5hrnO4xrueQmUGanV8dcyNr5uM3q9TbqGOjbAI5Su0Ig==}
     engines: {node: '>=14'}
     dependencies:
-      '@clerk/backend': 0.31.3(react@18.2.0)
-      '@clerk/shared': 1.0.0(react@18.2.0)
+      '@clerk/backend': 0.32.1(react@18.2.0)
+      '@clerk/shared': 1.0.1(react@18.2.0)
       '@clerk/types': 3.57.0
       '@types/cookies': 0.7.7
       '@types/express': 4.17.14
@@ -449,18 +449,18 @@ packages:
       - react
     dev: false
 
-  /@clerk/nextjs@4.25.7(next@14.0.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-HjlvVkJFPad/2FUdfY6Jp0VhzDQyqrUI1h1rdyIBTRe+zpGBPj/BfSrqRLZLsHUnK+f61HLWQTiwb0BGGpu6mQ==}
+  /@clerk/nextjs@4.26.1(next@14.0.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-2XCgH+H80uyIb3iBQMxBmCYUwH9Eij99aJcxd04p60fYCkzNYJjtxbAJTmX9evwSKRRGAKGCxa3ZwXoprDCROA==}
     engines: {node: '>=14'}
     peerDependencies:
       next: '>=10'
       react: ^17.0.2 || ^18.0.0-0
       react-dom: ^17.0.2 || ^18.0.0-0
     dependencies:
-      '@clerk/backend': 0.31.3(react@18.2.0)
-      '@clerk/clerk-react': 4.27.0(react@18.2.0)
-      '@clerk/clerk-sdk-node': 4.12.16(react@18.2.0)
-      '@clerk/shared': 1.0.0(react@18.2.0)
+      '@clerk/backend': 0.32.1(react@18.2.0)
+      '@clerk/clerk-react': 4.27.1(react@18.2.0)
+      '@clerk/clerk-sdk-node': 4.12.18(react@18.2.0)
+      '@clerk/shared': 1.0.1(react@18.2.0)
       '@clerk/types': 3.57.0
       next: 14.0.0(@babel/core@7.22.17)(react-dom@18.2.0)(react@18.2.0)
       path-to-regexp: 6.2.1
@@ -469,8 +469,8 @@ packages:
       tslib: 2.4.1
     dev: false
 
-  /@clerk/shared@1.0.0(react@18.2.0):
-    resolution: {integrity: sha512-KsI4bp7T0ql6byiXeiRf/qgCNuJRhrFPdZ7gLxY4zQpe9MRZT5FsX5miYVklkfLGVw9UT0XxYo91zcT2cRmRig==}
+  /@clerk/shared@1.0.1(react@18.2.0):
+    resolution: {integrity: sha512-jUmDlU9FYJi1AhCDkyoI0alh3L/gXpw9HzuB49uiqtU8pdCtjJNLHE5EY7mfHoGP5DdCZlmApzC+HyCamyOUVA==}
     peerDependencies:
       react: '>=16'
     peerDependenciesMeta:
