@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@clerk/nextjs':
-    specifier: ^4.27.0
-    version: 4.27.0(next@14.0.2)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^4.27.1
+    version: 4.27.1(next@14.0.2)(react-dom@18.2.0)(react@18.2.0)
   '@prisma/client':
     specifier: ^5.5.2
     version: 5.5.2(prisma@5.5.2)
@@ -335,8 +335,8 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
 
-  /@clerk/backend@0.34.0(react@18.2.0):
-    resolution: {integrity: sha512-hDjGwiT/tWNJ9UVCK2SwgAXKQ71X5Kx9wmvjVt4DQwgQKIFnES/Ao7bGjibf4KXSuLe6Z85UbQq1MEh6A+vwHQ==}
+  /@clerk/backend@0.34.1(react@18.2.0):
+    resolution: {integrity: sha512-I6u7vb7XHA0kNek5Ez4VVqBDZKxLepR6wJXlYUy5lGwsTdaQiFwy5Q0nKP2GdQQYtlKpXSAryLu19Cq5zaaNYg==}
     engines: {node: '>=14'}
     dependencies:
       '@clerk/shared': 1.1.0(react@18.2.0)
@@ -364,11 +364,11 @@ packages:
       tslib: 2.4.1
     dev: false
 
-  /@clerk/clerk-sdk-node@4.12.20(react@18.2.0):
-    resolution: {integrity: sha512-SXeNLcAtzXiPmgsdkmtID2UVQ3O5l7hnVAUE/p+rsQ4iCDswXKq5pv6zQsSigQPwMEjP4F4kJnnBRxHUgSnekg==}
+  /@clerk/clerk-sdk-node@4.12.21(react@18.2.0):
+    resolution: {integrity: sha512-43MdviLlAG3naNzRyxF/Io8YYQBnFEIQiqYFVHzKzZGEsbPST9lBfeFxJZKrCqSE8K7gMx3+3D87bveXq6a7cA==}
     engines: {node: '>=14'}
     dependencies:
-      '@clerk/backend': 0.34.0(react@18.2.0)
+      '@clerk/backend': 0.34.1(react@18.2.0)
       '@clerk/shared': 1.1.0(react@18.2.0)
       '@clerk/types': 3.58.0
       '@types/cookies': 0.7.7
@@ -381,17 +381,17 @@ packages:
       - react
     dev: false
 
-  /@clerk/nextjs@4.27.0(next@14.0.2)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-/sVoVhyYzu0koxiaVCE0PMUAqR6+slwPC/i1KlV0fNCmcgZA8Kl72eFSYJau6kNquf+cmKf94YBENpcExcrlyw==}
+  /@clerk/nextjs@4.27.1(next@14.0.2)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-FsAwVqCNNOjTC3w9mHjc/T4uP/JzGni0WTXANNXjC4sfh2kDfBzUMLRPNfcgAou5TOsMqYJdRxQ5sx4eCGQIOA==}
     engines: {node: '>=14'}
     peerDependencies:
       next: '>=10'
       react: ^17.0.2 || ^18.0.0-0
       react-dom: ^17.0.2 || ^18.0.0-0
     dependencies:
-      '@clerk/backend': 0.34.0(react@18.2.0)
+      '@clerk/backend': 0.34.1(react@18.2.0)
       '@clerk/clerk-react': 4.28.0(react@18.2.0)
-      '@clerk/clerk-sdk-node': 4.12.20(react@18.2.0)
+      '@clerk/clerk-sdk-node': 4.12.21(react@18.2.0)
       '@clerk/shared': 1.1.0(react@18.2.0)
       '@clerk/types': 3.58.0
       next: 14.0.2(@babel/core@7.22.17)(react-dom@18.2.0)(react@18.2.0)
