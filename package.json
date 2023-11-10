@@ -23,7 +23,7 @@
     "@trpc/react-query": "^10.43.2",
     "@trpc/server": "^10.43.2",
     "@upstash/ratelimit": "^0.4.4",
-    "@upstash/redis": "^1.25.0",
+    "@upstash/redis": "^1.25.1",
     "dayjs": "^1.11.10",
     "next": "^14.0.2",
     "react": "18.2.0",
