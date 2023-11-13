@@ -2,7 +2,7 @@
   "name": "twitter-clone-2.0",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@8.10.3",
+  "packageManager": "pnpm@8.10.4",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
