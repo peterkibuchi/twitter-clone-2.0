@@ -15,7 +15,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@clerk/nextjs": "^4.29.1",
+    "@clerk/nextjs": "^4.29.2",
     "@prisma/client": "^5.7.1",
     "@tanstack/react-query": "^4.36.1",
     "@trpc/client": "^10.45.0",
