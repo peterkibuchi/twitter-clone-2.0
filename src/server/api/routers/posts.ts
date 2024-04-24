@@ -31,7 +31,7 @@ const addUserDataToPosts = async (posts: Post[]) => {
       userId: posts.map((post) => post.authorId),
       limit: 100,
     })
-  ).map(filterUserForClient);
+  ).data.map(filterUserForClient);
 
   return posts.map((post) => {
     const author = users.find((user) => user.id === post.authorId);

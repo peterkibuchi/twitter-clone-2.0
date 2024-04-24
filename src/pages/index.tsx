@@ -16,7 +16,7 @@ const CreatePostWizard = () => {
   const [input, setInput] = useState("");
 
   const { user } = useUser();
-  const ctx = api.useContext();
+  const ctx = api.useUtils();
 
   const { mutate, isLoading: isPosting } = api.posts.create.useMutation({
     onSuccess: () => {
@@ -39,13 +39,13 @@ const CreatePostWizard = () => {
   return (
     <div className="flex w-full gap-4">
       <Image
-        src={user.profileImageUrl}
+        src={user.imageUrl}
         alt="Profile Image"
         className="h-12 w-12 rounded-full"
         width={32}
         height={32}
         placeholder="blur"
-        blurDataURL={user.profileImageUrl}
+        blurDataURL={user.imageUrl}
       />
 
       <input
