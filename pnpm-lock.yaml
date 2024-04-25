@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@clerk/nextjs':
         specifier: ^5.0.2
-        version: 5.0.2(eslint@8.57.0)(next@14.2.3(@babel/core@7.24.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.4.5)
+        version: 5.0.2(eslint@8.57.0)(next@14.2.3(@babel/core@7.24.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)
       '@prisma/client':
         specifier: ^5.13.0
         version: 5.13.0(prisma@5.13.0)
@@ -19,16 +19,16 @@ importers:
         version: 0.10.1(typescript@5.4.5)(zod@3.23.4)
       '@tanstack/react-query':
         specifier: ^4.36.1
-        version: 4.36.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 4.36.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@trpc/client':
         specifier: ^10.45.2
         version: 10.45.2(@trpc/server@10.45.2)
       '@trpc/next':
         specifier: ^10.45.2
-        version: 10.45.2(@tanstack/react-query@4.36.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/react-query@10.45.2(@tanstack/react-query@4.36.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/server@10.45.2)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@trpc/server@10.45.2)(next@14.2.3(@babel/core@7.24.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 10.45.2(@tanstack/react-query@4.36.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/react-query@10.45.2(@tanstack/react-query@4.36.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/server@10.45.2)(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(@trpc/server@10.45.2)(next@14.2.3(@babel/core@7.24.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@trpc/react-query':
         specifier: ^10.45.2
-        version: 10.45.2(@tanstack/react-query@4.36.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/server@10.45.2)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 10.45.2(@tanstack/react-query@4.36.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/server@10.45.2)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@trpc/server':
         specifier: ^10.45.2
         version: 10.45.2
@@ -43,16 +43,16 @@ importers:
         version: 1.11.10
       next:
         specifier: ^14.2.3
-        version: 14.2.3(@babel/core@7.24.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 14.2.3(@babel/core@7.24.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       react:
-        specifier: 18.2.0
-        version: 18.2.0
+        specifier: 18.3.0
+        version: 18.3.0
       react-dom:
-        specifier: 18.2.0
-        version: 18.2.0(react@18.2.0)
+        specifier: 18.3.0
+        version: 18.3.0(react@18.3.0)
       react-hot-toast:
         specifier: ^2.4.1
-        version: 2.4.1(csstype@3.1.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 2.4.1(csstype@3.1.1)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       superjson:
         specifier: 2.2.1
         version: 2.2.1
@@ -70,11 +70,11 @@ importers:
         specifier: ^20.12.7
         version: 20.12.7
       '@types/react':
-        specifier: ^18.2.79
-        version: 18.2.79
+        specifier: ^18.3.0
+        version: 18.3.0
       '@types/react-dom':
-        specifier: ^18.2.25
-        version: 18.2.25
+        specifier: ^18.3.0
+        version: 18.3.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.7.1
         version: 7.7.1(@typescript-eslint/parser@7.7.1(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)
@@ -511,11 +511,11 @@ packages:
   '@types/prop-types@15.7.5':
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
 
-  '@types/react-dom@18.2.25':
-    resolution: {integrity: sha512-o/V48vf4MQh7juIKZU2QGDfli6p1+OOi5oXx36Hffpc9adsHeXjVp8rHuPkjd8VT8sOJ2Zp05HR7CdpGTIUFUA==}
+  '@types/react-dom@18.3.0':
+    resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
 
-  '@types/react@18.2.79':
-    resolution: {integrity: sha512-RwGAGXPl9kSXwdNTafkOEuFrTBD5SA2B3iEB96xi8+xu5ddUa/cpvyVCSNn+asgLCTHkb5ZxN8gbuibYJi4s1w==}
+  '@types/react@18.3.0':
+    resolution: {integrity: sha512-DiUcKjzE6soLyln8NNZmyhcQjVv+WsUIFSqetMN0p8927OztKT4VTfFTqsbAi5oAGIcgOmOajlfBqyptDDjZRw==}
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -1812,10 +1812,10 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-dom@18.2.0:
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  react-dom@18.3.0:
+    resolution: {integrity: sha512-zaKdLBftQJnvb7FtDIpZtsAIb2MZU087RM8bRDZU8LVCCFYjPTsDZJNFUWPcVz3HFSN1n/caxi0ca4B/aaVQGQ==}
     peerDependencies:
-      react: ^18.2.0
+      react: ^18.3.0
 
   react-hot-toast@2.4.1:
     resolution: {integrity: sha512-j8z+cQbWIM5LY37pR6uZR6D4LfseplqnuAO4co4u8917hBUvXlEqyP1ZzqVLcqoyUesZZv/ImreoCeHVDpE5pQ==}
@@ -1827,8 +1827,8 @@ packages:
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react@18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+  react@18.3.0:
+    resolution: {integrity: sha512-RPutkJftSAldDibyrjuku7q11d3oy6wKOyPe5K1HA/HwwrXcEqBdHsLypkC2FFYjP7bPUa6gbzSBhw4sY2JcDg==}
     engines: {node: '>=0.10.0'}
 
   read-cache@1.0.0:
@@ -1879,8 +1879,8 @@ packages:
   safe-regex-test@1.0.0:
     resolution: {integrity: sha512-JBUUzyOgEwXQY1NuPtvcj/qcBDbDmEvWufhlnXZIm75DEHp+afM1r1ujJpJsV/gSM4t59tpDyPi1sd6ZaPFfsA==}
 
-  scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+  scheduler@0.23.1:
+    resolution: {integrity: sha512-5GKS5JGfiah1O38Vfa9srZE4s3wdHbwjlCrvIookrg2FO9aIwKLOJXuJQFlEfNcVSOXuaL2hzDeY20uVXcUtrw==}
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
@@ -2324,9 +2324,9 @@ snapshots:
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
 
-  '@clerk/backend@1.0.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@clerk/backend@1.0.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
     dependencies:
-      '@clerk/shared': 2.0.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@clerk/shared': 2.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       cookie: 0.5.0
       snakecase-keys: 5.4.4
       tslib: 2.4.1
@@ -2334,13 +2334,13 @@ snapshots:
       - react
       - react-dom
 
-  '@clerk/clerk-react@5.0.1(eslint@8.57.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.4.5)':
+  '@clerk/clerk-react@5.0.1(eslint@8.57.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)':
     dependencies:
-      '@clerk/shared': 2.0.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@clerk/shared': 2.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@clerk/types': 4.1.0
       eslint-config-custom: 0.0.0(eslint@8.57.0)(typescript@5.4.5)
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.3.0(react@18.3.0)
       tslib: 2.4.1
     transitivePeerDependencies:
       - eslint
@@ -2348,16 +2348,16 @@ snapshots:
       - supports-color
       - typescript
 
-  '@clerk/nextjs@5.0.2(eslint@8.57.0)(next@14.2.3(@babel/core@7.24.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.4.5)':
+  '@clerk/nextjs@5.0.2(eslint@8.57.0)(next@14.2.3(@babel/core@7.24.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)':
     dependencies:
-      '@clerk/backend': 1.0.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@clerk/clerk-react': 5.0.1(eslint@8.57.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.4.5)
-      '@clerk/shared': 2.0.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@clerk/backend': 1.0.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@clerk/clerk-react': 5.0.1(eslint@8.57.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)
+      '@clerk/shared': 2.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       crypto-js: 4.2.0
-      next: 14.2.3(@babel/core@7.24.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      next: 14.2.3(@babel/core@7.24.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       path-to-regexp: 6.2.1
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.3.0(react@18.3.0)
       tslib: 2.4.1
     transitivePeerDependencies:
       - eslint
@@ -2365,15 +2365,15 @@ snapshots:
       - supports-color
       - typescript
 
-  '@clerk/shared@2.0.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@clerk/shared@2.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
     dependencies:
       glob-to-regexp: 0.4.1
       js-cookie: 3.0.1
       std-env: 3.7.0
-      swr: 2.2.0(react@18.2.0)
+      swr: 2.2.0(react@18.3.0)
     optionalDependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.3.0(react@18.3.0)
 
   '@clerk/types@4.1.0':
     dependencies:
@@ -2566,35 +2566,35 @@ snapshots:
 
   '@tanstack/query-core@4.36.1': {}
 
-  '@tanstack/react-query@4.36.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@tanstack/react-query@4.36.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
     dependencies:
       '@tanstack/query-core': 4.36.1
-      react: 18.2.0
-      use-sync-external-store: 1.2.0(react@18.2.0)
+      react: 18.3.0
+      use-sync-external-store: 1.2.0(react@18.3.0)
     optionalDependencies:
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.0(react@18.3.0)
 
   '@trpc/client@10.45.2(@trpc/server@10.45.2)':
     dependencies:
       '@trpc/server': 10.45.2
 
-  '@trpc/next@10.45.2(@tanstack/react-query@4.36.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/react-query@10.45.2(@tanstack/react-query@4.36.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/server@10.45.2)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@trpc/server@10.45.2)(next@14.2.3(@babel/core@7.24.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@trpc/next@10.45.2(@tanstack/react-query@4.36.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/react-query@10.45.2(@tanstack/react-query@4.36.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/server@10.45.2)(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(@trpc/server@10.45.2)(next@14.2.3(@babel/core@7.24.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
     dependencies:
-      '@tanstack/react-query': 4.36.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@tanstack/react-query': 4.36.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@trpc/client': 10.45.2(@trpc/server@10.45.2)
-      '@trpc/react-query': 10.45.2(@tanstack/react-query@4.36.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/server@10.45.2)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@trpc/react-query': 10.45.2(@tanstack/react-query@4.36.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/server@10.45.2)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@trpc/server': 10.45.2
-      next: 14.2.3(@babel/core@7.24.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      next: 14.2.3(@babel/core@7.24.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      react: 18.3.0
+      react-dom: 18.3.0(react@18.3.0)
 
-  '@trpc/react-query@10.45.2(@tanstack/react-query@4.36.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/server@10.45.2)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@trpc/react-query@10.45.2(@tanstack/react-query@4.36.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/server@10.45.2)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
     dependencies:
-      '@tanstack/react-query': 4.36.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@tanstack/react-query': 4.36.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@trpc/client': 10.45.2(@trpc/server@10.45.2)
       '@trpc/server': 10.45.2
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.3.0(react@18.3.0)
 
   '@trpc/server@10.45.2': {}
 
@@ -2615,11 +2615,11 @@ snapshots:
 
   '@types/prop-types@15.7.5': {}
 
-  '@types/react-dom@18.2.25':
+  '@types/react-dom@18.3.0':
     dependencies:
-      '@types/react': 18.2.79
+      '@types/react': 18.3.0
 
-  '@types/react@18.2.79':
+  '@types/react@18.3.0':
     dependencies:
       '@types/prop-types': 15.7.5
       csstype: 3.1.1
@@ -3936,7 +3936,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@14.2.3(@babel/core@7.24.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  next@14.2.3(@babel/core@7.24.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0):
     dependencies:
       '@next/env': 14.2.3
       '@swc/helpers': 0.5.5
@@ -3944,9 +3944,9 @@ snapshots:
       caniuse-lite: 1.0.30001599
       graceful-fs: 4.2.11
       postcss: 8.4.31
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      styled-jsx: 5.1.1(@babel/core@7.24.0)(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.3.0(react@18.3.0)
+      styled-jsx: 5.1.1(@babel/core@7.24.0)(react@18.3.0)
     optionalDependencies:
       '@next/swc-darwin-arm64': 14.2.3
       '@next/swc-darwin-x64': 14.2.3
@@ -4145,23 +4145,23 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@18.2.0(react@18.2.0):
+  react-dom@18.3.0(react@18.3.0):
     dependencies:
       loose-envify: 1.4.0
-      react: 18.2.0
-      scheduler: 0.23.0
+      react: 18.3.0
+      scheduler: 0.23.1
 
-  react-hot-toast@2.4.1(csstype@3.1.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-hot-toast@2.4.1(csstype@3.1.1)(react-dom@18.3.0(react@18.3.0))(react@18.3.0):
     dependencies:
       goober: 2.1.12(csstype@3.1.1)
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.0
+      react-dom: 18.3.0(react@18.3.0)
     transitivePeerDependencies:
       - csstype
 
   react-is@16.13.1: {}
 
-  react@18.2.0:
+  react@18.3.0:
     dependencies:
       loose-envify: 1.4.0
 
@@ -4227,7 +4227,7 @@ snapshots:
       get-intrinsic: 1.2.1
       is-regex: 1.1.4
 
-  scheduler@0.23.0:
+  scheduler@0.23.1:
     dependencies:
       loose-envify: 1.4.0
 
@@ -4339,10 +4339,10 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  styled-jsx@5.1.1(@babel/core@7.24.0)(react@18.2.0):
+  styled-jsx@5.1.1(@babel/core@7.24.0)(react@18.3.0):
     dependencies:
       client-only: 0.0.1
-      react: 18.2.0
+      react: 18.3.0
     optionalDependencies:
       '@babel/core': 7.24.0
 
@@ -4370,10 +4370,10 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  swr@2.2.0(react@18.2.0):
+  swr@2.2.0(react@18.3.0):
     dependencies:
-      react: 18.2.0
-      use-sync-external-store: 1.2.0(react@18.2.0)
+      react: 18.3.0
+      use-sync-external-store: 1.2.0(react@18.3.0)
 
   synckit@0.8.5:
     dependencies:
@@ -4510,9 +4510,9 @@ snapshots:
     dependencies:
       punycode: 2.3.0
 
-  use-sync-external-store@1.2.0(react@18.2.0):
+  use-sync-external-store@1.2.0(react@18.3.0):
     dependencies:
-      react: 18.2.0
+      react: 18.3.0
 
   util-deprecate@1.0.2: {}
 
