@@ -6,7 +6,6 @@
 
 /** @type {import("next").NextConfig} */
 const config = {
-  reactStrictMode: true,
   images: { domains: ["images.clerk.com"] },
 
   /** We already do linting and typechecking as separate tasks in CI */
